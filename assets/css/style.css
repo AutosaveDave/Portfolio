@@ -190,7 +190,10 @@ nav a:hover {
   border-style: solid;
   border-width: 6px;
   border-color: var(--primary);
-  background-color: var(--tertiary);
+  background-image: url("../images/Horiseon.png");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light;
   padding: 0px 20px;
   margin: 6px;
   min-height: 180px;
@@ -223,6 +226,18 @@ nav a:hover {
   background-color: var(--secondary);
   color: var(--dark);
   background-color: var(--light);
+}
+
+#horiseon {
+  background-image: url("../images/Horiseon.png");
+}
+
+#poe-it {
+  background-image: url("../images/Poe-it.png");
+}
+
+#sunset-alarm {
+  background-image: url("../images/Sunset-alarm.png");
 }
 
 .contact-section {
