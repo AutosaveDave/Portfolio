@@ -3,11 +3,12 @@
   }
 
 :root {
-    --primary: #cebc4f;
-    --secondary: #d9d97f;
-    --tertiary: #7c7874;
-    --dark: #231a06;
-    --light: #e5e5e5;
+    --primary: #ffb000;
+    --secondary: #f29a35;
+    --tertiary: #0069b0;
+    --dark: #151c4a;
+    --light: #ffd880;
+    --black: #000000;
 }
 
 body {
@@ -218,12 +219,11 @@ nav a:hover {
 }
 
 .work-item:hover {
-  background-color: var(--primary);
+  background-color: var(--secondary);
   border-color: var(--light);
 }
 
 .work-item:hover div{
-  background-color: var(--secondary);
   color: var(--dark);
   background-color: var(--light);
 }
@@ -312,7 +312,7 @@ nav a:hover {
 }
 
 .contact-items a:hover {
-  background-color: var(--primary);
+  background-color: var(--secondary);
   border-color: var(--light);
 }
 
